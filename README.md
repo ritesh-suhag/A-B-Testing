@@ -12,10 +12,9 @@ In this project we apply Chi-Square Test For Independence (a Hypothesis Test) to
     - [Actions](#overview-actions)
     - [Results & Discussion](#overview-results)
 - [01. Concept Overview](#concept-overview)
-- [02. Data Overview & Preparation](#data-overview)
-- [03. Applying Chi-Square Test For Independence](#chi-square-application)
-- [04. Analysing The Results](#chi-square-results)
-- [05. Discussion](#discussion)
+- [02. Applying Chi-Square Test For Independence](#chi-square-application)
+- [03. Analysing The Results](#chi-square-results)
+- [04. Discussion](#discussion)
 
 ___
 
@@ -136,7 +135,7 @@ The *expected frequencies* are essentially what we would *expect* to see based o
 
 ___
 
-# Applying Chi-Square Test For Independence
+# Applying Chi-Square Test For Independence  <a name="chi-square-application"></a>
 
 Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
 
@@ -147,7 +146,7 @@ From this, we can see that the higher cost mailer does lead to a higher signup r
 
 We have a Chi-Square Statistic of **1.94** and a p-value of **0.16**.  The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
 
-**Note** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
+**Note:** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
 
 ___
 
