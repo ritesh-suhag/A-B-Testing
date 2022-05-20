@@ -1,3 +1,5 @@
+# Assessing Campaign Performance Using Chi-Square Test For Independence
+!(ab-testing-title-img.png)
 ---
 layout: post
 title: Assessing Campaign Performance Using Chi-Square Test For Independence
