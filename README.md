@@ -50,9 +50,6 @@ We set out our hypotheses and Acceptance Criteria for the test, as follows:
 
 As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *signup_flag* by *mailer_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values
 
-<br>
-<br>
-
 ### Results & Discussion <a name="overview-results"></a>
 
 Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
@@ -76,9 +73,6 @@ Without running this Hypothesis Test, the client may have concluded that they sh
 Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.  
 
 Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
-
-<br>
-<br>
 
 ___
 
